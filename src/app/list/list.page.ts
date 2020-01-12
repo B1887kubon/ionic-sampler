@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ListPage implements OnInit {
   private selectedItem: any;
   private icons = [
-    'flask',
+    'airplane',
     'wifi',
     'beer',
     'football',
@@ -17,11 +17,12 @@ export class ListPage implements OnInit {
     'american-football',
     'boat',
     'bluetooth',
-    'build'
+    'build',
+    'flask'
   ];
   public items: Array<{ title: string; note: string; icon: string }> = [];
   constructor() {
-    for (let i = 1; i < 11; i++) {
+    for (let i = 1; i < 21; i++) {
       this.items.push({
         title: 'Item ' + i,
         note: 'This is item #' + i,

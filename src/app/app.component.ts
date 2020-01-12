@@ -17,10 +17,25 @@ export class AppComponent {
       icon: 'home'
     },
     {
+      title: 'Buttons',
+      url: '/buttons',
+      icon: 'add-circle',
+    },
+    {
       title: 'List',
       url: '/list',
       icon: 'list'
-    }
+    },
+    {
+      title: 'Me',
+      url: '/me',
+      icon: 'cafe'
+    },
+    {
+      title: 'Contact',
+      url: '/contact',
+      icon: 'call'
+    },
   ];
 
   constructor(

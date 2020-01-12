@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Beautiful Buttons
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<section>
+  <header>Überall diese Farben</header>
+  <ion-button size="small" color="tertiary" (click)="showAlert()">ClickMe</ion-button>
+  <ion-button size="small" color="danger" (click)="showAlert()">ClickMe</ion-button>
+</section>
+
+<section>
+  <header>Defaults</header>
+  <ion-button color="secondary" (click)="showAlert()">ClickMe</ion-button>
+  <ion-button color="success" (click)="showAlert()">ClickMe</ion-button>
+</section>
+
+<section>
+  <header>Large Ones</header>
+  <ion-button size="large" color="warning" (click)="showAlert()">ClickMe</ion-button>
+  <ion-button size="large" color="light" (click)="showAlert()">ClickMe</ion-button>
+</section>
+
+<section>
+  <header>Wide like a Block</header>
+  <ion-button expand="block" color="dark" (click)="showAlert()">ClickMe</ion-button>
+</section>
+
+<section class="full-width">
+  <header>With full force</header>
+  <ion-button expand="full" color="medium" (click)="showAlert()">ClickMe</ion-button>
+</section>
+
